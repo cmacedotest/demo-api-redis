@@ -4,7 +4,7 @@ node {
   }
 
   stage('Build') {
-    sh 'docker image build -t cmacedo/demo-api:latest .'
+    sh 'docker image build -t cmacedotest/demo-api:latest .'
   }
 
   stage('Push') {
